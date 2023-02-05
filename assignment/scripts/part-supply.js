@@ -32,15 +32,15 @@ console.log(supplyChanges); // Added so I could more easily check question 6
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...'); //I completed strecth goal #7 below in the #7 question location.
-for (let i = 0; i < supplyChanges.length; i++) {
-    if (supplyChanges[i] > 0) {
-        console.log('Added', supplyChanges[i], 'parts');
+for (let x = 0; x < supplyChanges.length; x++) {
+    if (supplyChanges[x] > 0) {
+        console.log('Added', supplyChanges[x], 'parts');
     }
-    else if (supplyChanges[i] === 0) {
+    else if (supplyChanges[x] === 0) {
         console.log('No change');
     }
-    else if (supplyChanges[i] < 0) {
-        console.log('Removed', supplyChanges[i], 'parts');
+    else if (supplyChanges[x] < 0) {
+        console.log('Removed', supplyChanges[x], 'parts');
     }
 
 }
