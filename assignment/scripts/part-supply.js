@@ -83,8 +83,8 @@ console.log(sum)
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
 let warehouse = 572;
-let boxes = 0;
-console.log('Our warehouse began with', warehouse, 'parts');
+let boxes = 0; //counter for below While statement
+console.log('Our warehouse began with', warehouse, 'parts'); //Added for clarity when checking work.
 while (warehouse >= 7) {
     warehouse -= 7;
     boxes++;
